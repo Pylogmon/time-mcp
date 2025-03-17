@@ -1,8 +1,9 @@
+#!/usr/bin/env node
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 // Create server instance
 const server = new McpServer({
-    name: "mcp-server-filesystem",
+    name: "mcp-server-time",
     version: "1.0.4",
 });
 // Register time tools
