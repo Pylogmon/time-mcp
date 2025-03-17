@@ -1,6 +1,5 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
-import { z } from "zod";
 
 // Create server instance
 const server = new McpServer({
@@ -9,7 +8,7 @@ const server = new McpServer({
 });
 
 // Register time tools
-server.tool("get-iso-date-time", "Get the current time", {}, async ({}) => {
+server.tool("get-current-time", "Get the current time", {}, async ({}) => {
   const now = new Date();
   return {
     content: [

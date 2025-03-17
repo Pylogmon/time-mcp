@@ -6,7 +6,7 @@ const server = new McpServer({
     version: "1.0.0",
 });
 // Register time tools
-server.tool("get-iso-date-time", "Get the current time", {}, async ({}) => {
+server.tool("get-current-time", "Get the current time", {}, async ({}) => {
     const now = new Date();
     return {
         content: [
