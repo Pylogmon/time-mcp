@@ -1,6 +1,6 @@
 {
   "name": "@pylogmonmcp/time",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "description": "Time MCP Server running on stdio",
   "type": "module",

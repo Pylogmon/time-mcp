@@ -2,8 +2,8 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 // Create server instance
 const server = new McpServer({
-    name: "time",
-    version: "1.0.0",
+    name: "mcp-server-filesystem",
+    version: "1.0.4",
 });
 // Register time tools
 server.tool("get-current-time", "Get the current time", {}, async ({}) => {
