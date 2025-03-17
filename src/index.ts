@@ -6,7 +6,7 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 // Create server instance
 const server = new McpServer({
   name: "mcp-server-time",
-  version: "1.0.5",
+  version: "1.0.6",
 });
 
 // Register time tools
