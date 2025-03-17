@@ -1,11 +1,11 @@
 {
   "name": "@pylogmonmcp/time",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "description": "Time MCP Server running on stdio",
   "type": "module",
   "bin": {
-    "@pylogmonmcp/time": "./build/index.js"
+    "mcp-server-filesystem": "./build/index.js"
   },
   "scripts": {
     "build": "tsc && chmod 755 build/index.js"
@@ -19,7 +19,6 @@
   ],
   "author": "Pylogmon",
   "license": "MIT",
-  "packageManager": "pnpm@10.5.2",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.7.0"
   },
